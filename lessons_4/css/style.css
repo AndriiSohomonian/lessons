@@ -1,0 +1,65 @@
+@import url("reset.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;800&display=swap');
+
+@font-face {
+    font-family: 'Julee';
+    src: url('../fonts/Julee-Regular.woff2') format('woff2'),
+        url('../fonts/Julee-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body{
+    font-family: "Maven Pro", sans-serif;
+	font-size: 14px; 
+    background-color: rgba(108, 236, 22, 0.363);
+    line-height: 1.4;
+}
+
+.summer h1{
+    color: rgb(255, 145, 0);
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: underline;
+    text-shadow:  -3px 2px 1px rgba(255, 145, 0, 0.349);
+    letter-spacing: 5px;
+}
+.summer p{
+    color: rgba(228, 56, 191, 0.747);
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 300;
+    font-family: "Playfair Display", sans-serif;
+    text-shadow:  -2px 1px 1px rgba(228, 56, 191, 0.363);
+}
+
+ h2{
+    color: rgb(238, 255, 0);
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: underline;
+    text-shadow:  -3px 2px 1px rgba(255, 145, 0, 0.349);
+}
+.timing p{
+font-family: "Raleway",  sans-serif;
+text-align: right;
+color: rgba(247, 0, 62, 0.986);
+text-shadow:  -2px 1px 1px rgba(32, 10, 16, 0.986), 2px 1px 1px rgba(247, 0, 62, 0.986);
+}
+
+.weather p{
+    text-align: center;
+    text-decoration:line-through;
+    font-family: Julee;
+    font-weight: 700;
+    color: rgba(105, 116, 8, 0.281);
+    text-shadow:  -4px 5px 1px rgba(141, 185, 18, 0.986)
+    
+}
+
