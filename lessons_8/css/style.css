@@ -1,0 +1,197 @@
+@import url("reset.css");
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Maven+Pro:wght@400;500;800&family=Poppins:wght@300;400;500;600;700;800;900&display=swap);
+
+ /*background:url(../img/speaker\ .png) 75% 50% no-repeat , linear-gradient(117deg, rgba(186,198,236,0.24) 0%, rgba(218,227,255,0.24413515406162467) 60%, rgba(48,86,211,0) 60%, rgba(48,86,211,0.15) 60%, rgba(48,86,211,0.15) 69%, rgba(48,86,211,0.25) 69%, rgba(48,86,211,0.25) 100%);*/
+
+ 
+
+.text{
+    font-family: "poppins";
+    max-width: 605px;
+}
+
+.vence{
+    background-image: url("../img/1.png");
+    Background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+   padding: 365px 735px 155px 100px;
+}
+
+.text h2{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 160%; /* 40/25px */
+    margin: 15px 0;
+    color: rgba(248, 249, 250, 1);
+
+}
+
+.text__litle{
+    max-width: 350px;
+}
+
+.text__litle p{
+    font-size: 12px;
+    line-height: 166.666667%; /* 20/12 */
+    color: rgba(229, 229, 229, 1);   
+}
+
+
+.speakers{
+    background:url(../img/speaker\ .png) 75% 50% no-repeat , linear-gradient(117deg, rgba(186,198,236,0.24) 0%, rgba(218,227,255,0.24413515406162467) 60%, rgba(48,86,211,0) 60%, rgba(48,86,211,0.15) 60%, rgba(48,86,211,0.15) 69%, rgba(48,86,211,0.25) 69%, rgba(48,86,211,0.25) 100%);
+    padding: 145px 735px 146px 135px;
+}
+
+.text_speakers{
+    max-width: 570px;
+    font-family: "Inter";
+    
+}
+
+.text_litle a{
+color: rgba(48, 86, 211, 1);
+font-size: 18px;
+line-height: 133.333333%; /* 24/18 */
+}
+
+.text_litle h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 125%; /* 45/36 */
+    color: rgba(33, 43, 54, 1);
+    margin: 13px 0 15px 0;
+}
+
+.text_speakers p{
+    color: rgba(99, 115, 129, 1);
+    font-size: 16px;
+    line-height: 150%; /* 24/16 */
+    margin-bottom: 35px;
+
+}
+.button{
+    display: inline-block;
+    
+}
+
+.button a{
+    background-color: #3056D3;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+.button a:hover{
+    color: rgb(176, 137, 213);
+    box-shadow: 10px 5px 100px 5px rgb(176, 137, 213);
+}
+.text_litle a:hover{
+    color: rgb(176, 137, 213);
+    box-shadow: 10px 5px 100px 5px rgb(176, 137, 213);
+}
+
+.lists h2{  
+    margin: 50px;
+    
+    font-size: 26px;
+    line-height: 107.692308%; /* 28/26 */
+    color: rgba(33, 43, 54, 1);
+}
+
+.lists{
+    font-family: "Inter";
+    margin: 0 auto;
+    max-width: 400px;
+    font-size: 16px;
+    line-height: 125%; /* 20/16 */
+    font-weight: bold;
+    color: rgba(99, 115, 129, 1);
+
+}
+
+.list1__content{
+    margin: 20px;
+}
+
+.list1__content li:first-child {
+    text-transform: uppercase;
+    color: blueviolet;
+}
+
+.list1__content li::before{
+    content: url(../img/svg/5.svg);
+    padding-right: 20px;
+    vertical-align: middle;   
+}
+
+
+.list2__content{
+    margin: 20px;
+}
+.list2__content li::before{
+content: url(../img/svg/6.svg);
+padding-right: 20px;
+vertical-align: middle;  
+}
+
+.list2__content li:nth-child(even){
+    color: aquamarine;
+}
+.list2__content li:nth-child(odd){
+    color: rgb(255, 0, 166);
+}
+
+
+.list3__content{
+    margin: 20px;
+}
+.list3__content li::before{
+    content: url(../img/svg/Ellipse\ 2744.svg);
+    padding-right: 20px;
+    vertical-align: middle;  
+}
+.list3__content li:not(:nth-child(4)){
+    color: burlywood;
+}
+
+.list4__content{
+    margin: 20px;
+}
+.list4__content li::before{
+    content: url(../img/svg/Group.svg);
+    padding-right: 20px;
+    vertical-align: middle;
+}
+.list4__content li:nth-child(3n+1){
+    color: yellow;
+}
+
+
+.list5__content{
+    margin: 20px;
+    color: blue;
+}
+.list5__content li::before{
+    content: url(../img/svg/Group3.svg);
+    padding-right: 20px;
+    vertical-align: middle;
+}
+.list5__content li:nth-child(n+4){
+    color: yellow;
+}
+
+.list6__content{
+    margin: 20px;
+}
+
+.list6__content li::before{
+    content:url(../img/svg/Group4.svg);
+    padding-right: 20px;
+    vertical-align: middle;
+}
+.list6__content li:first-of-type{
+    color: coral;
+    text-transform: uppercase;
+}
