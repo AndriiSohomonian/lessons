@@ -1,0 +1,160 @@
+@import url("reset.css");
+
+body{
+    background-color: #733F49;
+}
+
+[class*="__container"]{
+    max-width: 1240px;
+    margin: 0 auto;
+    background-color: #D9D1CC;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.icons{
+    margin: 20px 0;
+}
+
+
+.text {
+    margin-bottom: 10px;
+}
+
+.text h2{
+    font-size: 34px;
+    line-height: 129.411765%; /* 44/34 */
+    font-weight: bold;
+    color: #262626;
+    text-align: center;
+}
+
+.text p{
+    font-size: 22px;
+    line-height: 136.363636%; /* 30/22 */
+    color: #262626;
+}
+.text span{
+    font-weight: bold;
+}
+
+.content{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #D9B7B4;
+    border-radius: 20px;
+}
+
+.content li{
+    display: inline;
+    vertical-align: middle; 
+    margin: 20px;
+}
+
+.s1::before {
+    content: url("../img/svg/building.svg");
+    
+}
+.s2::before {
+    content: url("../img/svg/Business.svg");
+}
+.s3::before {
+    content: url("../img/svg/dashboard\ 1.svg");
+}
+ .s4::before {
+    content: url("../img/svg/Ellipse\ 24.svg");
+}
+.s5::before {
+    content: url("../img/svg/Ellipse\ 27.svg");
+}
+.s6::before {
+    content: url("../img/svg/Ellipse\ 45.svg");
+}
+.s7::before {
+    content: url("../img/svg/Group.svg");
+}
+.s8::before {
+    content: url("../img/svg/Group1.svg");
+}
+.s9::before {
+    content: url("../img/svg/Group10.svg");
+}
+.s11::before{
+    content: url("../img/svg/Group12.svg");
+}
+.s12::before{
+    content: url("../img/svg/Group4.svg");
+}
+
+.s13::before{
+    content: url("../img/svg/Group\ 1000001858.svg");
+}
+.s14::before{
+    content: url("../img/svg/Group\ 1000002051.svg");
+}
+.s15::before{
+    content: url("../img/svg/Group\ 1000002132.svg");
+}
+.s16::before{
+    content: url("../img/svg/Group\ 1000004062.svg");
+}
+.s17::before{
+    content: url("../img/svg/Group\ 1000004063.svg");
+}
+
+
+.s19::before{
+    content: url("../img/svg/linkedin.svg");
+}
+.s20::before{
+    content: url("../img/svg/map-marker\ 1.svg");
+}
+
+.s21::before{
+    content: url("../img/svg/Oval.svg");
+}
+.s22::before{
+    content: url("../img/svg/Oval1.svg");
+}
+.s23::before{
+    content: url("../img/svg/reload\ 1.svg");
+}
+
+.s24::before{
+    content: url("../img/svg/shape.svg");
+}
+.s25::before{
+    content: url("../img/svg/single\ pricing.svg");
+}
+.s26::before{
+    content: url("../img/svg/Vector.svg");
+}
+.s27::before{
+    content: url("../img/svg/Vector10.svg");
+}
+.s28::before{
+    content: url("../img/svg/Vector11.svg");
+}
+.s29::before{
+    content: url("../img/svg/Vector2.svg");
+}
+.s30::before{
+    content: url("../img/svg/Vector6.svg");
+}
+.s31::before{
+    content: url("../img/svg/Vector8.svg");
+}
+
+.image{
+    margin: 20px 0;
+}
+
+.content img{
+    max-width: 1000px;
+    margin: 10px;
+}
+
+.dis{
+    margin: 20px 0;
+}
