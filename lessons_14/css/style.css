@@ -1,0 +1,117 @@
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap);
+
+
+.container {
+    max-width: 1260px;
+    padding: 0 10px;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-family: "poppins ";
+}
+.container__content {
+margin-bottom: 60px;
+}
+
+.container__text{
+    display: flex;
+    justify-content: space-between;
+    
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 44px;
+}
+.text__left{
+    display: flex;
+}
+.text__right{
+    display: flex;
+    column-gap: 20px;
+    color: rgba(73, 80, 87, 0.5);
+}
+.text__right span:hover{
+    color:rgba(73, 80, 87, 1) ;
+}
+.container__content{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 45px;
+}
+.card{
+    max-width: 393px;
+    flex-direction: column;
+    position: relative;
+}
+
+.card__items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: rgba(73, 80, 87, 1);
+    font-size: 12;
+    font-weight: 200;
+    line-height: 1.6;
+
+}
+.card__items {
+    row-gap: 15px;
+    min-height: 100%;
+}
+.card__items p{
+flex-grow: 1;
+}
+.image {
+    max-width: 100%;
+}
+
+.line{
+    border-top: 1px solid rgba(229, 229, 229, 1);
+    width: 100%;
+}
+.big{
+    font-size: 25px;
+    color: rgba(33, 37, 41, 1);
+    font-weight: bold;
+}
+.buttom{
+    position: absolute;
+    right: 29.5px;
+    top: 30px;
+    font-size: 8px;
+    font-weight: bold;
+    line-height: 2.5;
+    color: rgba(248, 249, 250, 1);
+    background-color: rgba(33, 37, 41, 0.3);
+    flex: 0 1 63px;
+    width: 64px;
+    display: flex;
+    justify-content: center;
+    padding: 3px 0;
+    border-radius: 4px;
+    font-family: "poppins";
+    transition: all 0.2s linear 0.1s;
+}
+.buttom:hover{
+    transform: scale(1.2);
+    background-color: rgba(33, 37, 41, 0.5);
+}
+.buttom__more {
+    margin-bottom: 60px;
+    font-family: "poppins";
+    background-color: rgba(33, 37, 41, 1);
+    max-width: 178px;
+    color: rgba(248, 249, 250, 1);
+    font-size: 12px;
+    line-height: 2.1;
+    display: flex;
+    justify-content: center;
+    padding: 8px 0;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    transition: all 0.2s linear 0.1s;
+}
+.buttom__more:hover{
+    font-size: 14px;
+}
