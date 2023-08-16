@@ -1,0 +1,258 @@
+@import url(reset.css);
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,600,700&display=swap");
+
+
+.wrapper{
+font-family: "poppins";
+font-size: 18px;
+color: rgba(51, 51, 51, 1);
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+[class*="__container"] {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/* -------- */
+
+/* титул початок */
+.first-title{
+    display: flex;
+    flex-direction: column;
+    max-width: 40.5%; /* 486/1200 */
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 53px;
+    text-align: center;
+}
+.first-title h1{
+    font-size: 56px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    line-height: 140%;
+    margin-bottom: 40px;
+}
+.first-title p{
+    line-height: 160%;
+    color: rgba(0, 0, 0, 1);
+
+}
+/* титул кінець */
+/* борд рочаток */
+.information__project {
+    margin-bottom: 82px;
+}
+.board {
+    max-width: 100%;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.img {
+    width: 100%;
+    transition: transform 0.8s;
+}
+.img:hover {
+	transform: scale(1.05);
+}
+
+/* текст */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: space-between;
+}
+.row__column {
+    width: 49.916667%; /* 599/1200 */
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.row__column h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 140%;
+    margin-bottom: 24px;
+    color: rgba(51, 51, 51, 1);
+}
+.text {
+    font-weight: 400;
+    color: rgba(156, 156, 156, 1);
+    line-height: 160%;
+    width: 100%;
+}
+.text p:not(:last-child){
+    margin-bottom: 30px;
+}
+.about {
+    width: 100%;
+    font-weight: 400;
+    color: rgba(156, 156, 156, 1);
+    line-height: 160%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    column-gap: 13.69863%; /* 80/584 */
+
+}
+/* борд кінець */
+/* картинки початок */
+.picture {
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+}
+.picture__row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 5px;
+}
+.some {
+    
+}
+.some__column {
+    width: 48.666667%; /* 584/1200 */
+    
+}
+.images__item  {
+    width: 100%;
+    overflow: hidden;
+}
+.images__item img{
+    max-width: 100%;
+    transition: transform 0.8s;
+}
+.images__item img:hover {
+	transform: scale(1.05);
+}
+
+/* Адаптив */
+@media (max-width: 1229.98px){
+    .first-title h1{
+        font-size: 50px;
+    }
+}
+
+
+@media (max-width: 1101.98px){
+    .first-title{
+        max-width: 50%;
+    }
+}
+@media (max-width: 897.98px){
+    .first-title{
+        margin-bottom: 45px;
+    }
+    .first-title h1{
+        font-size: 40px;
+    }
+    .first-title p{
+        font-size: 15px;
+    }
+    /* bord */
+    .board {
+        margin-bottom: 60px;
+    }
+}
+@media (max-width: 723.98px){
+    .first-title{
+        margin-bottom: 40px;
+    }
+    .first-title h1{
+        font-size: 30px;
+    }
+    /* bord */
+    .board {
+        margin-bottom: 40px;
+    }
+    .row{
+        row-gap: 50px;
+    }
+    .row__column{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        font-size:  15px;
+    }
+    .row__column h1{
+        margin: 0 auto;
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+    .about{
+        justify-content: center;
+    }
+    /* ------ */
+    .information__project {
+        margin-bottom: 40px;
+    }
+    .picture {
+        row-gap: 25px;
+    }
+
+}
+@media (max-width: 641.98px){
+    .first-title{
+        max-width: 60%;
+    }
+    .first-title h1{
+        margin-bottom: 30px;
+    }
+    .picture {
+        row-gap: 20px;
+    }
+}
+@media (max-width: 550.98px){
+    .first-title {
+        max-width: 70%;
+        margin-bottom: 25px;
+    }
+    .first-title h1{
+        font-size: 20px;
+        line-height: 140%;
+        margin-bottom: 20px;
+    }
+    .first-title p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 379.98px){
+    
+    .first-title {
+        max-width: 80%;
+    }
+    .first-title p{
+        font-weight: 600;
+    }
+    .row__column{
+        font-size:  12px;
+    }
+    .row__column h1{
+        font-size: 16px;
+    }
+    .row{
+        row-gap: 1px;
+    }
+    .about {
+        padding: 25px 15px;
+    }
+    .information__project {
+        margin-bottom: 25px;
+    }
+    .picture {
+        row-gap: 15px;
+    }
+}
+
